@@ -1,5 +1,20 @@
-# ZhiHu-Activities-Catch
+# ZhiHu-Activities-Indexs-Catch
 
+知乎動態索引文件抓取-ZhiHu-Activities-Indexs-Catch
+
+# Python版本
+
+Python 3.10.* 及以上。
+
+# 使用教程
+
+1.python -m pip install -r requirements.txt或pip install -r requirements.txt。
+
+2.python -m pip playwright install firefox
+
+3.修改down_indexs.py中的lao-liang-83-95為你所要抓取的知乎用戶的HTTP TOKEN。
+
+4.python down_indexs.py，抓取動態索引文件。
 
 
 ## Getting started
